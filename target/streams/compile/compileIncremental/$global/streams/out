@@ -2,25 +2,32 @@
 [debug] Initial source changes: 
 [debug] 	removed:Set()
 [debug] 	added: Set()
-[debug] 	modified: Set(D:\scala-workbase\helloscala\src\main\scala\chuoi\String4.scala)
+[debug] 	modified: Set(D:\scala-workbase\helloscala\src\main\scala\practice\Practice25.scala)
 [debug] Invalidated products: Set()
 [debug] External API changes: API Changes: Set()
 [debug] Modified binary dependencies: Set()
-[debug] Initial directly invalidated classes: Set(chuoi.String4)
+[debug] Initial directly invalidated classes: Set(practice.Practice25)
 [debug] 
 [debug] Sources indirectly invalidated by:
 [debug] 	product: Set()
 [debug] 	binary dep: Set()
 [debug] 	external source: Set()
-[debug] All initially invalidated classes: Set(chuoi.String4)
-[debug] All initially invalidated sources:Set(D:\scala-workbase\helloscala\src\main\scala\chuoi\String4.scala)
+[debug] All initially invalidated classes: Set(practice.Practice25)
+[debug] All initially invalidated sources:Set(D:\scala-workbase\helloscala\src\main\scala\practice\Practice25.scala)
 [info] Compiling 1 Scala source to D:\scala-workbase\helloscala\target\scala-2.13\classes ...
 [debug] Getting org.scala-sbt:compiler-bridge_2.13:1.2.5:compile for Scala 2.13.0
 [debug] Getting org.scala-sbt:compiler-bridge_2.13:1.2.5:compile for Scala 2.13.0
-[debug] [zinc] Running cached compiler 1c9107c3 for Scala compiler version 2.13.0
+[debug] [zinc] Running cached compiler 16be9e15 for Scala compiler version 2.13.0
 [debug] [zinc] The Scala compiler is invoked with:
 [debug] 	-bootclasspath
 [debug] 	C:\Users\abc\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.13.0.jar
 [debug] 	-classpath
 [debug] 	D:\scala-workbase\helloscala\target\scala-2.13\classes;C:\Users\abc\.ivy2\cache\org.apache.logging.log4j\log4j-api\jars\log4j-api-2.12.1.jar;C:\Users\abc\.ivy2\cache\org.apache.logging.log4j\log4j-core\jars\log4j-core-2.12.1.jar
-[debug] Scala compilation took 0.911850542 s
+[debug] Scala compilation took 7.40959894 s
+[info] Done compiling.
+[debug] New invalidations:
+[debug] 	Set()
+[debug] Initial set of included nodes: Set()
+[debug] Previously invalidated, but (transitively) depend on new invalidations:
+[debug] 	Set()
+[debug] All newly invalidated classes after taking into account (previously) recompiled classes:Set()
