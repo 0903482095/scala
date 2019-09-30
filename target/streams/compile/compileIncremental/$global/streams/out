@@ -2,29 +2,38 @@
 [debug] Initial source changes: 
 [debug] 	removed:Set()
 [debug] 	added: Set()
-[debug] 	modified: Set(D:\scala-workbase\helloscala\src\main\scala\practice\Practice25.scala)
+[debug] 	modified: Set(D:\scala-workbase\helloscala\src\main\scala\practice\Practice28.scala)
 [debug] Invalidated products: Set()
 [debug] External API changes: API Changes: Set()
 [debug] Modified binary dependencies: Set()
-[debug] Initial directly invalidated classes: Set(practice.Practice25)
+[debug] Initial directly invalidated classes: Set(practice.Practice28)
 [debug] 
 [debug] Sources indirectly invalidated by:
 [debug] 	product: Set()
 [debug] 	binary dep: Set()
 [debug] 	external source: Set()
-[debug] All initially invalidated classes: Set(practice.Practice25)
-[debug] All initially invalidated sources:Set(D:\scala-workbase\helloscala\src\main\scala\practice\Practice25.scala)
+[debug] All initially invalidated classes: Set(practice.Practice28)
+[debug] All initially invalidated sources:Set(D:\scala-workbase\helloscala\src\main\scala\practice\Practice28.scala)
 [info] Compiling 1 Scala source to D:\scala-workbase\helloscala\target\scala-2.13\classes ...
 [debug] Getting org.scala-sbt:compiler-bridge_2.13:1.2.5:compile for Scala 2.13.0
 [debug] Getting org.scala-sbt:compiler-bridge_2.13:1.2.5:compile for Scala 2.13.0
-[debug] [zinc] Running cached compiler 16be9e15 for Scala compiler version 2.13.0
+[debug] [zinc] Running cached compiler 2458a420 for Scala compiler version 2.13.0
 [debug] [zinc] The Scala compiler is invoked with:
 [debug] 	-bootclasspath
 [debug] 	C:\Users\abc\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.13.0.jar
 [debug] 	-classpath
 [debug] 	D:\scala-workbase\helloscala\target\scala-2.13\classes;C:\Users\abc\.ivy2\cache\org.apache.logging.log4j\log4j-api\jars\log4j-api-2.12.1.jar;C:\Users\abc\.ivy2\cache\org.apache.logging.log4j\log4j-core\jars\log4j-core-2.12.1.jar
-[debug] Scala compilation took 7.40959894 s
+[debug] Scala compilation took 0.673315979 s
 [info] Done compiling.
+[debug] Invalidating (transitively) by inheritance from practice.Practice28...
+[debug] Initial set of included nodes: Set(practice.Practice28)
+[debug] Invalidated by transitive inheritance dependency: Set(practice.Practice28)
+[debug] Change NamesChange(practice.Practice28,ModifiedNames(changes = UsedName(squares,[Default]))) invalidates 1 classes due to The practice.Practice28 has the following regular definitions changed:
+[debug] 	UsedName(squares,[Default]).
+[debug] 	> by transitive inheritance: Set(practice.Practice28)
+[debug] 	> 
+[debug] 	> 
+[debug]         
 [debug] New invalidations:
 [debug] 	Set()
 [debug] Initial set of included nodes: Set()
